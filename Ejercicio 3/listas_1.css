@@ -1,0 +1,16 @@
+.lista3 li{
+    list-style: none; /*Le quitamos los puntos*/
+    display: inline-block; /*Disposicion: elementos en una misma linea*/
+    padding: 5px; /*Para que esten mas separados los elementos*/
+    font: bold 14px verdana; /*Con font puedo aplicar varias propiedades a la vez*/
+}
+
+.lista4 li{
+    /* Para que en vez de un circulo, aparezcan con un cuadrado */
+    list-style: square;
+}
+
+.cursor{
+    /* Para que el cursor cambie a una mano, como para clicar */
+    cursor: pointer;
+}

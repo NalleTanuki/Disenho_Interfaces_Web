@@ -1,0 +1,60 @@
+/* Para la clase, usamos . */
+.bodyModificado{
+    background-color: #e1dede; /*Color de fondo*/
+}
+
+h1{
+    font-size: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-left: 45px; /*Margen interno izquierdo*/
+}
+
+.menu li{ /* La lectura seria: Busca todos los "li" que esten dentro de "menu" */
+    list-style: none; /*estilo de los li: nada, me quita los puntos*/
+    list-style-type: none;
+    display: inline-block; /*Display = Disposicion - Para que esten en linea*/
+    padding: 5px; /*Margen interno*/
+}
+
+hr{
+    border-color: black;
+    clear: both;
+}
+
+.seccion{
+    width: 1300px; /*Ancho*/
+    padding: 30px;
+    /* Para poder colocar el aside a la derecha, los 2 tienen que flotar
+    uno a continuacion del otro */
+    float: left;
+}
+
+.articulos{
+    background-color: #7d8591;
+    border: 1px solid #999; /*Borde*/
+    padding: 20px;
+    text-align: justify;
+}
+
+article footer{
+    /* Para que el texto este alineado a la derecha */
+    text-align: right; /*Para que este a la derecha*/
+    margin-top: 20px; /*Margen exterior*/
+}
+
+.columna{
+    /* Para poder colocar el aside a la derecha */
+    float: right; /*Propiedad para que "flote"*/
+    margin-top: 20px;
+}
+/* Tener en cuenta que al usar "float" afectara a todos los elementos que
+haya debajo, por lo que tengo que usar "clear:both" para limpiarlos */
+
+.piePagina{
+    /* Color del texto */
+    color: black;
+    text-align: center;
+    /* Para limpiar todo lo que hay ahi y que coloque bien lo demas */
+    /* Es decir, que si hay algo flotando (float), que a mi no me afecte */
+    clear:both;
+}

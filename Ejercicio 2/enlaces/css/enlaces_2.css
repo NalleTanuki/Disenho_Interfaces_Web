@@ -1,0 +1,25 @@
+div{
+    /* 40px superior e inferior || 0px izquierda y derecha */
+    margin: 40px 0px;
+}
+
+a{ /* Al subrayado... */
+    /* Decoracion texto */
+    text-decoration: none;
+    /* Tamaño letra */
+    font-size: 20px;
+    /* Color de fondo */
+    background-color: black;
+    /* Color del texto */
+    color: white;
+    /* Margen interno - 10px superior e inferior || 20px izquierda y derecha */
+    padding: 10px 20px;
+
+    /* 0px eje x(horizontal inf) 5px eje y(sombreado rojo) 0px difuminado*/
+    box-shadow: 0px 5px 0px red;
+}
+
+a:hover{
+    box-shadow: 0px 2px 0px;
+    background-color: blue;
+}

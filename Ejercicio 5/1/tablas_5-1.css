@@ -1,0 +1,15 @@
+table, th, td{
+    border: 1px solid black;
+}
+
+.parrafo{
+    text-align: justify;
+}
+
+.centrarTabla{
+    text-align: center; /* Centrar el titulo de la tabla */
+}
+
+.tabla{
+    margin: 0 auto; /* 0 es arriba y abajo, auto es izq y der */
+}

@@ -1,0 +1,21 @@
+.tabla{
+    width: 800px;
+}
+
+table, td{
+    border: 1px solid black;
+}
+
+.columna1{
+    background-color: chocolate;
+    font-size: 30px;
+    height: 60px;
+    width: 1000px;
+}
+
+.columnas{
+    width: 800px;
+    background-color: chocolate;
+    font-size: 30px;
+    height: 60px;
+}

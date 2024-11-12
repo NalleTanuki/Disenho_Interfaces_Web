@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tablas - Ejercicio 5.2</title>
+    <link rel="stylesheet" href="tablas_5-2.css">
+    <!-- Realiza el disenho de una pagina web utilizando HTML y CSS empleando
+     etiquetas y propiedades vistas en clase. El resultado final debe ser
+     una pagina web que tenga el mismo aspecto que la imagen que se da. -->
+</head>
+<body>
+    <caption>Encabezado de la tabla</caption>
+
+    <!-- La tabla tiene 3 filas y 3 columnas -->
+    <table class="tabla">
+        <!-- Fila 1 -->
+         <tr>
+            <!-- 3 Columnas -->
+            <td class="columna1">Encabezado 1</td>
+            <td class="columnas">Encabezado 2</td>
+            <td class="columnas">Encabezado 3</td>
+         </tr>
+
+        <!-- Fila 2 -->
+         <tr>
+            <!-- 3 Columnas -->
+             <!-- rowspan para unir filas -->
+            <td rowspan="2">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maiores blanditiis placeat voluptatum nemo officia autem reprehenderit molestias adipisci laboriosam repellendus!</td>
+            <td></td>
+            <td></td>
+         </tr>
+
+        <!-- Fila 3 -->
+         <tr class="filas">
+            <!-- 3 Columnas -->
+            <!-- <td>d</td> -->
+            <td colspan="2"></td> <!-- colspan para unir columnas -->
+            <!-- <td>f</td> -->
+         </tr>
+    </table>
+</body>
+</html>

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Realiza el disenho de una pagina web utiliazndo HTML y CSS empleando etiquetas
+     y propiedades vistas en clase. El resultado ifnal deber ser una pagina web
+     que tenga el mismo aspecto que la imagen. -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 1 de clase</title>
+</head>
+<!-- Para poner una imagen de fondo -->
+<body style="background-image: url(imagenes/fondo.png);">
+    <ul>
+        <!-- DAw 1 -->
+        <li style="list-style-type: square; color: blue; font-size: 35px;">
+            <b>DAW 1</b>
+        </li>
+
+        <li  style="list-style: none;">
+            <!-- type= que numere por letras, start=7 que empiece por la G -->
+             <!-- reversed es para que vaya G - F - E ... no de la mas peque a la mas grande -->
+            <ol type="A" start="7" reversed style="background-color: rgb(97, 174, 219);
+            margin-right: 70%; border: solid; font-size: 18px;">
+                <li>
+                    <b>Aplicaciones web</b>
+                    <ul type="circle">
+                        <li>Word</li>
+                        <li>Excel</li>
+                        <li>Access</li>
+                    </ul>
+                </li>
+                <li><b>Sistemas Operativos Monopuestos</b></li>
+                <li><b>Redes</b></li>
+                <dl> <!-- Lista de definicion -->
+                    <dt> <!-- Termino a definir -->
+                        <u><b>SWITCH</b></u>
+                    </dt>
+                    <dd>Conmutador digital lógico</dd> <!--Definicion -->
+
+                    <dt>
+                        <b>HUB</b>
+                    </dt>
+                    <dd>Dispositivo simple con una única misión, la de interconectar
+                        los ordenadores de una red local
+                    </dd>
+                </dl>
+            </ol>
+        </li>
+
+
+        <!-- DAW 2 -->
+        <li style="list-style-type: square; color: blue; font-size: 30px;
+        font-family: 'Courier New', Courier, monospace;">
+            <b>DAW 2</b>
+        </li>
+
+        <li style="list-style: none;">
+            <ol type="I" style="background-color: orange; border: 3px solid black; margin-right: 70%;">
+                <li><b>Sistemas operativos</b></li>
+                <li><b>Seguridad informática</b></li>
+                <li><b>Síntesis</b></li>
+                <li><b>Aplicaciones web</b></li>
+                    <ul>
+                        <li>JOOMLA</li>
+                        <li>MOODLE</li>
+                        <li>HTML</li>
+                    </ul>
+            </ol>
+        </li>
+    </ul>
+</body>
+</html>

@@ -1,0 +1,10 @@
+table {
+    border: 2px solid black; /* Borde de 2 píxeles sólido */
+    border-collapse: collapse; /* Combina los bordes de las celdas */
+}
+
+th, td {
+    border: 1px solid black; /* Borde interno de las celdas */
+    padding: 8px; /* Espaciado dentro de las celdas */
+    text-align: center; /* Centrar contenido */
+}

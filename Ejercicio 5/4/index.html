@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tablas - Ejercicio 5.4</title>
+
+    <link rel="stylesheet" href="tablas_5-4.css">
+
+    <!-- Utilizando HTML y CSS crea una pagina web con el horario de la imagen siguiente:
+     9 filas y 6 columnas -->
+</head>
+
+<body>
+    <h1>1º Desenvolvemento de Aplicacións Web <sub>DAW</sub></h1> 
+
+    <!-- Creamos la TABLA -->
+    <table>
+
+        <!-- 1 FILA - Titulos tabla -->
+        <tr>
+            <th>1º DAW</th>
+            <th>LUNS</th>
+            <th>MARTES</th>
+            <th>MÉRCORES</th>
+            <th>XOVES</th>
+            <th>VENRES</th>
+        </tr>
+
+        <!-- 2 FILA -->
+        <tr>
+            <td>8<sup>30</sup> - 9<sup>20</sup></td>
+            <td rowspan="3" class="bbdd">BBDD</td>
+            <td rowspan="3" class="sistemas">Sistemas Informáticos</td>
+            <td rowspan="3" class="bbdd">BBDD</td>
+            <td rowspan="3" class="sistemas">Sistemas Informáticos</td>
+            <td rowspan="3" class="lenguajes">Linguaxe de Marcas e Sistemas de Xestión da Información</td>
+        </tr>
+
+        <!-- 3 FILA -->
+        <tr>
+            <td>9<sup>20</sup> - 10<sup>10</sup></td>
+            <!-- <td>BBDD</td>
+            <td>Sistemas Informáticos</td>
+            <td>BBDD</td>
+            <td>Sistemas Informáticos</td>
+            <td>Linguaxe de Marcas e Sistemas de Xestión da Información</td> -->
+        </tr>
+
+        <!-- 4 FILA -->
+        <tr>
+            <td>10<sup>10</sup> - 11<sup>00</sup></td>
+            <!-- <td>BBDD</td>
+            <td>Sistemas Informáticos</td>
+            <td>BBDD</td>
+            <td>Sistemas Informáticos</td>
+            <td>Linguaxe de Marcas e Sistemas de Xestión da Información</td> -->
+        </tr>
+
+        <!-- 5 FILA -->
+        <tr>
+            <td></td>
+            <td colspan="5" id="recreo">RECREO</td>
+            <!-- <td>RECREO</td>
+            <td>RECREO</td>
+            <td>RECREO</td>
+            <td>RECREO</td> -->
+        </tr>
+
+        <!-- 6 FILA -->
+        <tr>
+            <td>11<sup>20</sup> - 12<sup>10</sup></td>
+            <td class="bbdd">BBDD</td>
+            <td rowspan="2" class="fol">FOL</td>
+            <td rowspan="2" class="lenguajes">Linguaxe de Marcas e Sistemas de Xestión da Información</td>
+            <td class="contornos">Contornos de Desenvolvemento</td>
+            <td rowspan="4" class="programacion">Programación</td>
+        </tr>
+
+        <!-- 7 FILA -->
+        <tr>
+            <td>12<sup>10</sup> - 13<sup>00</sup></td>
+            <td class="sistemas">Sistemas Informáticos</td>
+            <!-- <td>FOL</td> -->
+            <!-- <td>Linguaxe de Marcas e Sistemas de Xestión da Información</td> -->
+            <td rowspan="3" class="programacion">Programación</td>
+            <!-- <td>Programación</td> -->
+        </tr>
+
+        <!-- 8 FILA -->
+         <tr>
+            <td>13<sup>00</sup> - 13<sup>50</sup></td>
+            <td rowspan="2" class="fol">FOL</td>
+            <td rowspan="2" class="programacion">Programación</td>
+            <td rowspan="2" class="contornos">Contornos de Desenvolvemento</td>
+            <!-- <td>Programación</td> -->
+            <!-- <td>Programación</td> -->
+         </tr>
+
+         <!-- 9 FILA -->
+          <tr>
+            <td>13<sup>50</sup> - 14<sup>40</sup></td>
+            <!-- <td>FOL</td> -->
+            <!-- <td>Programación</td> -->
+            <!-- <td>Contornos de Desenvolvemento</td> -->
+            <!-- <td>Programación</td> -->
+            <!-- <td>Programación</td> -->
+          </tr>
+    </table>
+
+    <p>** É posibel que a hora de saída se demore até as 15:20h ou que se complete na aula virtual.</p>
+</body>
+
+</html>

@@ -1,0 +1,71 @@
+body {
+    background-color: rgb(131, 131, 131);
+}
+
+h1 {
+    color:whitesmoke;
+    text-align: center;
+}
+
+sub {
+    color: rgb(207, 6, 6);
+}
+
+table {
+    border: 2px solid black; /* Borde de 2 píxeles sólido */
+    /* border-collapse: collapse; Combina los bordes de las celdas */
+    border-spacing: 0 grey;
+}
+th, td {
+    border: 3px solid black; /* Borde interno de las celdas */
+    padding: 8px; /* Espaciado dentro de las celdas */
+    text-align: center; /* Centrar contenido */
+}
+
+td {
+    font-size: 15px;
+}
+
+tr {
+    background-color: rgb(22, 4, 51);
+    color: whitesmoke;
+}
+
+.bbdd {
+    background-color: rgb(229, 165, 5);
+    color: black;
+}
+
+.sistemas {
+    background-color: blue;
+}
+
+.lenguajes {
+    background-color: plum;
+    color: black;
+}
+
+.fol {
+    background-color: green;
+    color: black;
+}
+
+.programacion {
+    background-color: rgb(158, 193, 249);
+    color: black;
+}
+
+.contornos {
+    background-color: yellow;
+    color: black;
+}
+
+#recreo {
+    background-color: rgb(151, 7, 7);
+    font-size: 30px;
+    letter-spacing: 16px; /* Espacio entre letras */
+}
+
+p {
+    text-align: end;
+}

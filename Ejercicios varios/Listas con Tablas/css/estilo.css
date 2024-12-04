@@ -1,0 +1,26 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 20px;
+}
+
+.listas-tablas{
+    list-style-type: none;
+    padding: 0;
+}
+
+.listas-tablas li{
+    margin-bottom: 20px;
+}
+
+table{
+    border-collapse: collapse;
+    width: 50%;
+    margin: auto;
+    border: 1px solid #000;
+}
+
+td{
+    padding: 10px;
+    border: 1px solid #000;
+    text-align: center;
+}

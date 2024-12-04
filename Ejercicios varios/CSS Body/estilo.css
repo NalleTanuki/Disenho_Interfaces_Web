@@ -1,0 +1,25 @@
+body {
+    /*Quitar margenes y rellenos predeterminados del navegador*/
+    margin: 0;
+    padding: 0;
+    /*Estilos del TEXTO*/
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.6; /*Altura de linea comoda*/
+    color: #222;
+    /*Estilos del FONDO*/
+    background-color: #fff;
+    /* Que ocupe TODA la ventana del navegador */
+    width: 100%;
+    height: 100%;
+}
+
+/* Si es para un disenho CENTRADO o LIMITADO */
+body {
+    display: flex; /*Alinear y distribuir elementos hijo*/
+    justify-content: center; /*Centrar los elementos hijo horizontalmente (por defecto)*/
+    align-items: center; /*Centrar los elementos hijo verticalmente*/
+    min-height: 100vh; /*Define la altura minima del contenedor como 100% ed la altura de la ventana del navegador*/
+    margin: 0; /*Elimina cualquier margen predeterminado*/
+}
+

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Disenha una tabla que muestre un menu de comida por categorias.
+     Las categorias (Entrantes, Platos principales, Postres) deben usar rowspan
+     para abarcar varias filas, y cada fila tendra una lista de enlaces a las recetas -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menú de Comida</title>
+
+    <link rel="stylesheet" href="css/estilo.css">
+</head>
+<body>
+    <table>
+        <tr>
+            <th>Categoría</th>
+            <th>Recetas</th>
+        </tr>
+        <tr>
+            <td rowspan="3">Entrantes</td>
+            <td><a href="#ensalada">Ensalada César</a></td>
+        </tr>
+        <tr>
+            <!-- <td>Comentar</td> -->
+            <td><a href="#sopa">Sopa de verduras</a></td>
+        </tr>
+        <tr>
+            <!-- <td>Comentar</td> -->
+            <td><a href="#gazpacho">Gazpacho</a></td>
+        </tr>
+        <tr>
+            <td rowspan="2">Platos principales</td>
+            <td><a href="#pollo">Pollo asado</a></td>
+        </tr>
+        <tr>
+            <!-- <td>Comentar</td> -->
+            <td><a href="#pasta">Pasta carbonara</a></td>
+        </tr>
+        <tr>
+            <td>Postres</td>
+            <td><a href="#flan">Flan de vainilla</a></td>
+        </tr>
+    </table>
+</body>
+</html>

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario 1</title>
+
+    <link rel="stylesheet" href="css/formulario_1.css">
+</head>
+<body>
+    <h1>Formulario de registro</h1>
+
+    <form>
+        <div>
+            <label for="nombre">Nombre:</label>
+            <input type="text" minlength="5" pattern="[A-Za-z]{5,10}" title="Introduce tu nombre">
+        </div>
+
+        <br> <!-- Salto de linea-->
+
+        <div>
+            <label for="apellidos">Apellidos:</label>
+            <input type="text" maxlength="20" size="40">
+        </div>
+
+        <br> <!-- Salto de linea-->
+
+        <!-- RADIO - Solo 1 opcion se puede escoger -->
+        <div>
+            <p class="sexo">Sexo:</p>
+
+            <input type="radio" name="sexo" checked>
+            <label for="hombre">Hombre</label>
+
+            <input type="radio" name="sexo">
+            <label for="mujer">Mujer</label>
+        </div>
+
+        <br> <!-- Salto de linea-->
+
+        <div>
+            <label for="correo">Correo:</label>
+            <input type="email" maxlength="100">
+        </div>
+
+        <br> <!-- Salto de linea-->
+
+        <div>
+            <label for="poblacion">Población:</label>
+
+            <select>
+                <option value="">A Coruña</option>
+                <option value="">Lugo</option>
+                <option value="">Pontevedra</option>
+                <option value="">Ourense</option>
+            </select>
+        </div>
+
+        <br> <!-- Salto de linea-->
+
+
+        <!-- CAMPO TXT MAS GRANDE -->
+        <div>
+            <label for="descripcion">Descripción:</label>
+            <textarea placeholder="Introduce un texto" rows="6" cols="60"></textarea>
+        </div>
+
+        <br> <!-- Salto de linea-->
+
+        <div>
+            <input type="checkbox" checked>
+            <label for="info">Deseo recibir correos con ofertas.</label>
+        </div>
+
+        <br> <!-- Salto de linea-->
+
+
+        <!-- CHECKBOX -->
+        <div>
+            <input type="checkbox">
+            <label for="declaracion">Declaro haber leído las intrucciones.</label>
+        </div>
+
+        <br> <!-- Salto de linea-->
+
+        <!--  -->
+        <div>
+            <input type="submit" value="Enviar">
+            <br> <br>
+            <input type="reset" value="Reestablecer">
+        </div>
+    </form>
+</body>
+</html>

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Regla Import</title>
+
+    <!-- type = "text/css" para indicar que es un enlace a los ficheros css-->
+    <style type="text/css">
+        @import url(estilosGeneral.css);
+        /* Ponemos SCREEN para indicarle que esos estilos son solo para los elementos que se muestren en pantalla */
+        @import url(estilosPantalla.css) screen;
+    </style>
+
+</head>
+<body>
+    <header>
+        <p>SOY LA CABECERA</p>
+    </header>
+
+    <p>Soy el párrafo uno.</p>
+    <p>Soy el párrafo dos.</p>
+
+    <div>
+        <img src="../clase 7/images/quebrantahuesos.jpg" alt="Imagen de un quebrantahuesos." id="imagen">
+    </div>
+</body>
+</html>

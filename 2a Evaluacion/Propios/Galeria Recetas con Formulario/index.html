@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+    <!-- Galeria de Recetas con Formulario de Comentarios
+     Objetivos:
+        - Crear una galeria de imagenes con recetas.
+        - Anhadir un formulario donde los usuarios puedan dejar su opinion sobre las recetas
+        - Aplicar bordes, sombras y efectos de opacidad con CSS
+        - Incluir un audio con controles. -->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galería de Recetas</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+
+    <!-- TITULO -->
+    <h1>Galería de Recetas</h1>
+
+    <!-- AUDIO -->
+    <audio controls loop>
+        <source src="audio/musica.mp3" type="audio/mp3">
+        Tu navegador no soporta el audio.
+    </audio>
+
+    <!-- GALERÍA DE IMAGENES -->
+    <div class="galeria">
+        <figure>
+            <img src="images/receta1.avif" alt="Receta 1">
+            <figcaption>Ensalada fresca</figcaption>
+        </figure>
+
+        <figure>
+            <img src="images/receta2.jpeg" alt="Receta 2">
+            <figcaption>Pasta al pesto</figcaption>
+        </figure>
+
+        <figure>
+            <img src="images/receta3.jpg" alt="Receta 3">
+            <figcaption>Pizza casera</figcaption>
+        </figure>
+    </div>
+
+    <!-- FORMULARIO DE OPINIONES -->
+    <section class="formulario">
+
+        <h2>Déjanos tu opinión</h2>
+
+        <form action="#" method="post">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+
+            <label for="mensaje">Comentario:</label>
+            <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+</body>
+</html>

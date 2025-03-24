@@ -1,0 +1,19 @@
+.cabecera1{
+    border: 2px solid red;
+    border-radius: 25px; /* a todos los lados*/
+}
+
+.cabecera2{
+    border: 2px solid yellow;
+    border-radius: 20px 50px; /* superior izq e inferior derech (20px) super.derch e infer.izq*/
+}
+
+.cabecera3{
+    border: 2px solid pink;
+    border-radius: 15px 50px 80px; /* superior izq(15px),sup.derch e inf.izq(50px) y inf.derch(30px)*/
+}
+
+.cabecera4{
+    border: 2px solid rgb(135, 19, 39);
+    border-radius: 15px 50px 30px 5px; /* superior izq(15px),sup.derch(50px),inf.derch(30px) e inf.izq(5px)*/
+}

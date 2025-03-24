@@ -1,0 +1,145 @@
+/* EJEMPLO 1 */
+/* article{
+    background-color: brown;  Color de fondo
+    width: 200px;             ancho
+    height: 100px;            alto
+} */
+
+
+/* EJEMPLO 2 - Anhadir una URL de imagen externa*/
+/* body{
+    background-image: url(data:image/jpeg;base64,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);
+} */
+
+
+/* EJEMPLO 3 - Anhadir imagenes en local
+El segundo url() nos sirve para asegurarnos de que si la primera img no se ve pues que se vea la segunda
+
+Por defecto las imagenes tienen el valor de REPEAT
+    no-repeat: para que la primera NO se repita
+    repeat: para que la segunda SI se repita
+
+Ponemos background-color para poner un color de fondo, en el caso de que no se vea ninguna de las imagenes
+*/
+/* body{
+    background-image: url(../images/perrito.jfif), url(../images/lince.jpg);
+    background-repeat: no-repeat, repeat;
+    background-color: gray;
+} */
+
+
+/* EJEMPLO 4 - DEGRADADO LINEAL COMO FONDO */
+/* article{
+    height: 200px;
+    background-image: linear-gradient(red, yellow, green);
+} */
+
+/* EJEMPLO 5 -  DEGRADADO LINEAL REPETIDO COMO FONDO*/
+/* article{
+    height: 200px;
+    background-image: repeating-linear-gradient(red, yellow 10%, green 20%);
+} */
+
+
+/* EJEMPLO 6 - BACKGROUND-POSITION nos permite elegir la posicion del fondo dentro del area del contenido
+no afecta a los margenes, bordes o relleno 
+
+Dentro de esta propiedad tendremos que usar otra a mayores que es BACKGROUND-ATTACHMENT que es para el acoplamiento
+*/
+
+/* body{
+    background-image: url(../images/perrito.jfif);
+    background-repeat: no-repeat;
+    background-attachment: fixed; /* acomplamiento = fijo */
+    /* background-position: center; */
+    /* background-position: 10%; Posicionada a un 10% del eje X (tambien puede ser con PX) */
+    /* background-position-x: center; SOLO PARA EL EJE X - Estaria arriba de la pantalla pero centrado
+    background-position-y: center; SOLO PARA EL EJE Y - Estaria centrado en altura*/
+/* } */
+
+/* EJEMPLO 7 - Definimos la direccion en la que se organiza el texto y los elementos
+dentro de una caja
+ */
+/* body{
+    writing-mode: vertical-rl;
+} */
+
+
+/* BORDES            BORDES               BORDES            BORDES */
+/* h1{
+    border: 4px dashed red; /* dashed -> discontinuo */
+    /* border-block: 4px dashed red;   Es un borde pero sin los lados laterales */
+/* } */
+
+/* h3{
+    border: 8px dotted blue; /* dotted -> puntos, redondo */
+/* } */
+
+/* div{
+    border: double; /* como un rectangulo doble */
+    /* border-block: 8px solid hotpink;   */
+    /* writing-mode: vertical-lr; */
+/* } */
+
+
+/* body{
+    border-block-style: solid;
+    border-block-color: orange blue;
+} */
+
+/* div{
+    border-block-end-style: solid;
+    border-block-end-color: pink;
+}
+
+div{
+    border-block-start-style: dotted;
+    border-block-start-color: orange;
+    border-block-start-width: 14px;
+} */
+
+/* div{
+    border-block-style: solid;
+    border-block-width: thin thick; /*Delgado por arriba Grueso por abajo*/
+/* } */
+
+/* h1{
+    border-bottom: 5px solid violet;
+    border-left: 8px solid red;
+} */
+
+h1{
+    border: 2px solid black;
+    border-radius: 25px; /* Redondear bordes */
+    border-top-width: 10px;
+    padding: 20px;
+}
+
+/* div {
+    /* border-inline: 5px solid violet; Da un borde izquierdo y derecho */
+    /* border-inline-style: solid dashed; Para darle 2 bordes distintos. Borde izq. solido y borde derch punteado */
+    /* border-inline-color: pink blue; para darle 2 colores distintos- Borde izq y luego borde derch */
+/* } */
+
+div{
+    border-width: 5px; /*ancho del borde*/
+    border-color: brown; /*color del borde*/
+    border-style: solid; /*estilo del borde*/
+
+    /* Lo de arriba es lo mismo que usar la siguiente linea:  */
+    border: 5px solid brown
+}
+
+article{
+    border: 1px solid black;
+    
+    padding: 10px 15px; /* superior-inferior izquierda-derecha*/
+    /* Es lo mismo que si pongo... */
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+    padding: 10px 15px 20px; /*10px-top 15px-izquierda y derecha 20px-bottom */
+    padding: 10px 15px 20px 5px; /*10px-top 15px-right 20px-bottom 5px-left */
+}

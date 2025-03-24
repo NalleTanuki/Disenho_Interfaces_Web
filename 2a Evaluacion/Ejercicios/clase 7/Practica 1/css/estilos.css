@@ -1,0 +1,107 @@
+body{
+    background-color: rgb(93, 161, 170);
+}
+
+.divHeader{
+    background-color: rgb(8, 3, 51);
+    font-size: 18px; /* Aumentamos el tamanho de la letra */
+    text-align: center; /*Que el contenido este centrado*/
+    font-weight: bold; /* Tipo de letra */
+}
+
+.menuPrincipal{
+    display: inline-block; /* Para poner uno al lado del otro */
+    columns: 3; /* Para decirle que las separe en 3 columnas */
+}
+
+a{
+    color: whitesmoke;
+    text-decoration: none; /* Subrayado enlaces */
+}
+
+li{
+    list-style: none; /* Quitar los puntos */
+}
+
+.imgHeader{
+    width: 90%;
+    height: 200px;
+    margin-left: 5%;
+    margin-top: 1%;
+}
+
+/* TABLA */
+table{
+    border-collapse: collapse; /* Para que no haya separacion entre las columnas */
+}
+
+td{ /* Columnas */
+    width: 500px;
+    border: solid;
+    background-color: rgb(170, 222, 235);
+}
+
+h1, h2{
+    text-align: center; /* Centrar los h1 y h2 */
+}
+
+h2{
+    /* text-align: center; */
+    color: rgb(40, 34, 131);
+}
+
+p{
+    text-align: justify; /* Justificamos los textos de la tabla */
+    margin-right: 10px;
+}
+
+/* IMAGENES TABLAS */
+.imagenIzquierda{
+    width: 40px;
+    height: 90px;
+    float: left; /* porque quiero que flote a la izquierda del txt */
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.imagenDerecha{
+    width: 40px;
+    height: 90px;
+    float: right; /*porque quiero que flote a la derecha del txt */
+    margin: 10px; /* Cuando NO se dice nada, entonces aplica los 10px a TODOS los lados */
+}
+
+.columnaIntermedia{
+    background-color: rgb(100, 185, 219);
+}
+
+/* :BEFORE permite anhadir vinhetas predeterminadas ============== */
+li:before{
+    content: '√ ';
+    color: red;
+}
+
+.menuPrincipal li:before{ /* Para que no añada los ticks rojos en el menu principal */
+    content: none;
+}
+
+.enlace{
+    text-align: center; /* Centrar los botones */
+}
+
+button{
+    background-color: rgb(54, 46, 179);
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+footer{
+    color: whitesmoke;
+    background-color:  rgb(8, 3, 51);
+    text-align: center; /* Centrar todos los elementos */
+}
+
+.imagenFooter{
+    width: 60px;
+    height: 60px;
+}

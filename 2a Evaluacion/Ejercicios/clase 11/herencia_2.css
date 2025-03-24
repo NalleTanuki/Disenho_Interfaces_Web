@@ -1,0 +1,13 @@
+span{
+    color: blue;
+    border: 1px solid black;
+}
+
+.div2{
+    color: green;
+}
+
+.div2 span{
+    /* Le decimos que va a tener el color del elemento padre, que en este caso es el div y el div tiene verde*/
+    color: inherit;
+}

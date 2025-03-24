@@ -1,0 +1,12 @@
+table, td, th{
+    border: 1px solid black;
+}
+
+.tabla1{
+    /* border-collapse: separate; Por defecto, las tablas tienen esta propiedad */
+    border-spacing: 10px; /*Espacio entre los bordes*/
+}
+
+.tabla2{
+    border-collapse: collapse; /*Une todas las filas de la tabla*/
+}

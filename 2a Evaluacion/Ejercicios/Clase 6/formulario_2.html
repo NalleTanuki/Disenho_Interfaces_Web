@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <h1>Campos formulario</h1>
+
+    <form>
+        <p>Nombre: <!-- Tambien podriamos usar un <label> -->
+            <input type="text" required> <!-- Obligatorio -->
+        </p>
+
+        <p>Contraseña:
+            <input type="password" maxlength="8" required> <!--Al ponerle 8, no me dejara seguir escribiendo-->
+        </p>
+
+        <p>Correo:
+            <input type="email" required>
+        </p>
+
+        <p>URL:
+            <input type="url" placeholder="Introduce url">
+        </p>
+
+        <p>
+            <input type="date" value="2024-12-16" min="2024-11-01" max="2024-12-31">
+        </p>
+
+        <p>Tiempo:
+            <input type="time" value="12:23" min="09:00" max="18:00">
+        </p>
+
+        <p>Mes:
+            <input type="month" value="2024-11" min="2024-10">
+        </p>
+
+        <p>Semana:
+            <input type="week" value="2024-W20">
+        </p>
+
+        <p>Número:
+            <input type="number" value="0" min="-10" max="10">
+        </p>
+
+        <p>Teléfono:
+            <input type="tel" maxlength="9">
+        </p>
+
+        <p>Color:
+            <input type="color" value="#a03a25">
+        </p>
+
+        <br>
+
+        <div>
+            <input type="submit" value="Enviar">
+        </div>
+    </form>
+</body>
+</html>

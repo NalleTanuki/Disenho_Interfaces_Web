@@ -1,0 +1,20 @@
+/* Le decimos que la clase div2 el txt sea de color verde */
+.div2{
+    color: green;
+}
+
+/* Le decimos que todos los parrafos sean de color rojo 
+por lo que al refrescar la pagina, todos los p seran de color rojo
+inlcuido el que haya en div2
+*/
+p{
+    color:red;
+}
+
+/* Aqui entonces le decimos que todos los p de la clase div2 tengan el estilo (color)
+ de la clase padre
+ PERO si NO existiera la clase padre, en este caso arriba el .div2 entonces
+ su color seria el inicial, el que tiene por defecto (negro)*/
+.div2 p{
+    color: unset;
+}

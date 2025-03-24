@@ -1,0 +1,9 @@
+/* Le ponemos a todo el texto color azul */
+div{
+    color: blue;
+}
+
+/* Pero que al h1 su color sea el original, el inicial, el que tiene por defecto */
+h1{
+    color: initial;
+}

@@ -1,0 +1,77 @@
+body{
+    color: blue;
+    /* font-family: "Audiowide", 'Courier New', Courier, monospace; */
+    /* font-style: italic; */
+    /* font-weight: bold; */
+    /* font-size: 20px; */
+
+    /* ======================== LETRAS ======================== */
+    /* direction: ltr; Por defecto viene asi LeftToRight */
+    /* direction: rtl; */
+    /* word-spacing: 30px;         espacio entre las palabras */
+    /* letter-spacing: 5px;        espacio entre las letras */
+
+
+     /* ======================== LINEAS ======================== */
+    /* line-height: 80%; separacion entre las lineas */
+
+
+     /* ======================== TEXTO ======================== */
+    /* text-emphasis: double-circle red;   doble circulo - por defecto viene como NONE */
+    /* text-emphasis: filled;              puntos simples */
+    /* text-emphasis: triangle red;        triangulo */
+
+
+    /* ------ SANGRIA TEXTO ------ */
+    /* text-indent: 50px;         Tambien se puede poner un valor negativo -50px */
+
+
+    /* ------ ESCRITURA ------ */
+    /* writing-mode: vertical-lr;
+    text-orientation: upright;       sale el texto tipo MATRIX*/
+
+
+    /*------ SOMBREADO ------ */
+    /* text-shadow: 2px 2px red; eje x, eje y */
+
+    /*------ TEXTO TRANSFORMADO ------ */
+    /* text-transform: uppercase;               pone todo a mayuscula */
+    /* text-transform: lowercase;               pone todo a minuscula */
+    /* text-transform: capitalize;              pone la 1ª letra de todas las palabras en mayuscula */
+}
+
+/* h3{ */
+    /* text-decoration: underline;       subrayado abajo
+       text-decoration: overline;        subrayado arriba
+       text-decoration: line-through;    subrayado en medio
+       text-decoration-color: pink;      colo del subrayado */
+
+    /* visibility: visible;     por defecto viene VISIBLE */
+    /* visibility: hidden;      lo oculta */
+/* } */
+
+.parrafo1{
+    white-space: normal; /*valor por defecto*/
+}
+
+.parrafo2{
+    white-space: nowrap; /*parrafo en una misma linea*/
+}
+
+.parrafo3{
+    white-space: pre; /* parrafo partido */
+}
+
+/* ul{
+    list-style-image: url(../img/img.png);         /*propiedad que se le aplica a los li de un elemento ul - VINHETA*/
+/* } */
+
+.ul1 li{
+    list-style-position: outside; /*puntos fuera del borde*/
+    border: 1px solid black;
+}
+
+.ul2 li{
+    list-style-position: inside; /*puntos dentro del borde*/
+    border: 4px solid black;
+}

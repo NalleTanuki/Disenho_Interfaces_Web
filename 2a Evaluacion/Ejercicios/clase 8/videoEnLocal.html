@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video en Local</title>
+
+    <link rel="stylesheet" href="videoEnLocal.css">
+</head>
+<body>
+    <!-- <video src="video/Shakira.mp4"></video> -->
+
+    <!-- La mejor forma de subir un video
+     CONTROLS -> que aparezcan los controles
+     AUTOPLAY -> que empiece automaticamente
+     MUTED -> que este muteado por defecto ya que el autoplay no funciona si el video no esta muteado -->
+    <video id="videoLocal" controls autoplay muted>
+        <source src="video/videoShakira.mp4" type="video/mp4">
+        <source src="video/videoShakira.webm" type="video/webm">
+        <source src="video/videoShakira.ogv" type="video/ogv">
+
+        <img src="img/shakira.jfif" alt="Imagen Shakira">Su navegador no soporta contenido multimedia.
+    </video>
+
+    <!-- Para que el video comience en el minuto que nosotros queramos... -->
+    <script>
+        var tiempo = document.getElementById("videoLocal");
+
+        tiempo.currentTime = 120; //El tiempo se le pasa en segundos
+        tiempo.play();
+    </script>
+</body>
+</html>

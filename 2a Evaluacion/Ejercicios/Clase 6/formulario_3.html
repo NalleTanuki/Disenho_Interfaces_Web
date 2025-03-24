@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario 3</title>
+</head>
+<body>
+    <h1>Completa los campos</h1>
+
+    <fieldset> <!-- Recuadro que encierra -->
+        <legend>Datos personales</legend>
+        <p>Nombre:
+            <input type="text" size="30">
+        </p>
+
+        <p>Apellidos:
+            <input type="text" size="30">
+        </p>
+
+        <p>Edad:
+            <input type="number" min="18">
+        </p>
+    </fieldset>
+
+    <br>
+
+    <fieldset>
+        <legend>Cultura general</legend>
+        <p>Capital de Noruega:
+            <input type="radio" name="e1">Madrid
+            <input type="radio" name="e1">Oslo
+            <input type="radio" name="e1">Lisboa
+        </p>
+
+        <p>Capital de España:
+            <input type="radio" name="e2">París
+            <input type="radio" name="e2">Madrid
+            <input type="radio" name="e2">Lisboa
+        </p>
+    </fieldset>
+
+    <br>
+
+    <p>Subir fichero:</p>
+    <input type="file">
+
+    <p>Seleccionar un valor:
+        <select>
+            <option>...</option>
+            <optgroup> <!--Es una cabecera que agrupa a los option-->
+                <option>Opción 1</option>
+                <option disabled>Opción 2</option>
+                <option>Opción 3</option>
+            </optgroup>
+
+            <optgroup> <!--Es una cabecera que agrupa a los option-->
+                <option>Opción 4</option>
+                <option selected>Opción 5</option> <!--Viene el campo seleccionado por defecto-->
+                <option>Opción 6</option>
+            </optgroup>
+        </select>
+    </p>
+
+    <input type="submit" value="Enviar" disabled> <!--Tenemos el boton deshabilitado-->
+
+    <input type="text" disabled> <!--Tenemos el campo de texto deshabilitado-->
+
+    <br> <br>
+
+    <input type="text" value="¡A qué no me cambias!" readonly>
+
+    <br><br>
+
+    <input type="text" placeholder="¡A qué no me cambias!" readonly>
+
+    <br><br>
+
+    <p>Sube el volumen:
+        <input type="range">
+    </p>
+</body>
+</html>

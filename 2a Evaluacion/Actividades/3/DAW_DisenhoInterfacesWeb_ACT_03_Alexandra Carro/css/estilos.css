@@ -1,0 +1,30 @@
+body{
+    text-align: center;
+    background-image: url('../img/verduras.jpg');
+    background-repeat: repeat;
+}
+
+h1{
+    background-color: white;
+}
+
+/* CAJA VIDEO */
+div{
+    background-color: rgb(177, 4, 42);
+    padding: 10px;
+    width: 80%;
+    margin: 0 auto;
+    border: 4px solid rgb(34, 33, 33);
+    outline: 4px solid rgb(34, 33, 33);
+    outline-offset: -15px; /* Desplazamiento del contorno */   
+}
+
+/* VIDEO
+ANOTACION: Puse el borde en el video automaticamente (frameborder="1")
+pero como no lo hemos dado en clase todavia, tambien lo puse en el CSS con:
+
+iframe{
+    border: 2px solid rgb(217, 217, 217);
+}
+    
+    */

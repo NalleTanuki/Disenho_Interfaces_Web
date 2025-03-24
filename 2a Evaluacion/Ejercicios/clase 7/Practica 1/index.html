@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Realiza el disenho de una pagina web utilizando HTML y CSS empleando etiquetas y propiedades vistas en clase.
+ El resultado final debe ser una pagina web que tenga el mismo aspecto que la siguiente imagen. -->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Práctica 1</title>
+
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+    <!-- HEADER -->
+    <header>
+        <div class="divHeader">
+            <ul class="menuPrincipal">
+                <li><a href="#cursos">Todos nuestros cursos</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+                <li><a href="#nosotros">Sobre nosotros</a></li>
+            </ul>
+        </div>
+
+        <!-- IMAGEN -->
+        <img class="imgHeader" src="img/informatica.jfif" alt="Imagen informática.">
+    </header>
+
+    <!-- TABLA -->
+    <table>
+        <!-- FILA 1 -->
+        <tr>
+            <!-- COLUMNA 1 -->
+            <td>
+                <h1>Diseño web</h1>
+                <h2>Lo que aprenderás</h2>
+                <p><img src="img/diseño web.jfif" alt="Diseño web" class="imagenIzquierda">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Enim facere omnis, tenetur voluptatem
+                    iste mollitia autem provident et ipsa laboriosam harum non soluta placeat dolorum itaque? Quisquam aperiam quos, facere voluptate repellendus
+                    placeat porro eveniet maiores quas pariatur eos dolor soluta itaque non.
+                </p>
+
+                <div class="enlace">
+                    <button>
+                        <a href="#leer">Leer más</a>
+                    </button>
+                </div>
+            </td>
+
+            <!-- COLUMNA 2 -->
+            <td class="columnaIntermedia">
+                <h1>JAVA</h1>
+                <h2>Lo que aprenderás</h2>
+                <ul>
+                    <li>Controlar el acceso a los miembros.</li>
+                    <li>Controlar el uso de métodos.</li>
+                    <li>Controlar el uso de funciones.</li>
+                    <li>Comprender los conceptos básicos.</li>
+                    <li>Conocer la clase object.</li>
+                </ul>
+
+                <div class="enlace">
+                    <button>
+                        <a href="#leer">Leer más</a>
+                    </button>
+                </div>
+            </td>
+
+            <!-- COLUMNA 3 -->
+            <td>
+                <h1>Redes de ordenadores</h1>
+                <h2>Lo que aprenderás</h2>
+                <p><img src="img/redes.jfif" alt="Redes de ordenadores" class="imagenDerecha">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Enim facere omnis, tenetur voluptatem
+                    iste mollitia autem provident et ipsa laboriosam harum non soluta placeat dolorum itaque? Quisquam aperiam quos, facere voluptate repellendus
+                    placeat porro eveniet maiores quas pariatur eos dolor soluta itaque non. Ut dolor hic unde, veritatis deleniti ullam!
+                </p>
+
+                <div class="enlace">
+                    <button>
+                        <a href="#leer">Leer más</a>
+                    </button>
+                </div>
+            </td>
+        </tr>
+    </table>
+
+    <!-- FOOTER -->
+    <footer>
+        <div>
+            <!-- DIV 1 - TELEFONO -->
+            <div>
+                <!-- Para marcar una imagen y contiene un elemento (figcaption) -->
+                <figure> <!-- se usa para agrupar contenido visual -->
+                    <a href="#telefono"> <img src="img/telefono.png" alt="Imagen teléfono" class="imagenFooter"> </a>
+                    
+                    <!-- Titulo para la imagen, semejante al caption de las tablas -->
+                    <figcaption>
+                        666-999-666 <!--Aparece en la parte SUPERIOR, por defecto-->
+                    </figcaption>
+                </figure>
+            </div>
+    
+            <!-- DIV 2 - CORREO -->
+            <div>
+               <figure>
+                   <a href="#correo"> <img src="img/correo.png" alt="Imagen correo" class="imagenFooter"> </a>
+               </figure>
+    
+               <figcaption>
+                   micorreo@correo.es
+               </figcaption>
+            </div>
+    
+            <!-- DIV 3 - FACEBOOK -->
+            <div>
+               <figure>
+                   <a href="#facebook"> <img src="img/facebook.png" alt="Logotipo de Facebook" class="imagenFooter"> </a>
+               </figure>
+            </div>
+    
+            <!-- DIV 3 - INSTAGRAM -->
+            <div>
+              <figure>
+                    <a href="#instagram"> <img src="img/instagram.png" alt="Logotipo de Instagram" class="imagenFooter"> </a>
+              </figure>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

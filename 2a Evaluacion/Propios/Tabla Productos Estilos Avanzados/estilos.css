@@ -1,0 +1,59 @@
+/* Importar fuente de Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&display=swap');
+
+/* Estilos generales */
+body {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    background-color: #f0f0f0;
+}
+
+/* Contenedor */
+.contenedor {
+    width: 70%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+}
+
+/* Tabla */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 3px double black;
+}
+
+/* Encabezado de la tabla */
+thead {
+    background-color: #3c0d0d;
+    color: white;
+}
+
+/* Celdas */
+th, td {
+    border: 2px dashed gray;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Herencia y valores especiales */
+.destacado {
+    font-weight: bold;
+    border: inherit; /* Hereda el estilo de borde de la tabla */
+    color: initial;  /* Vuelve al color por defecto del navegador */
+    background-color: unset; /* Anula el fondo si se definió antes */
+}
+
+/* Media Queries para hacer la tabla responsive */
+@media screen and (max-width: 600px) {
+    table {
+        border: 1px solid black;
+    }
+    
+    th, td {
+        font-size: 14px;
+        padding: 5px;
+    }
+}

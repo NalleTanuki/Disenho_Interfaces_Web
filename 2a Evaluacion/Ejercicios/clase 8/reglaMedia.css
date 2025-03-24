@@ -1,0 +1,17 @@
+#imagen{
+    width: 180px;
+    height: 200px;
+}
+
+p{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+/*Tener en cuenta que siempre que veamos esto en un proyector o lo imprimamos,
+la img saldra a la izq*/
+@media screen{
+    div{
+        text-align: center;
+    }
+}
